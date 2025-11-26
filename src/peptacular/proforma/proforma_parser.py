@@ -3251,7 +3251,7 @@ def serialize(
     annotation: Union[ProFormaAnnotation, MultiProFormaAnnotation],
     include_plus: bool = False,
 ) -> str:
-    """
+    r"""
     Serializes a ProForma annotation or multiple ProForma annotations into a single string representation.
 
     :param annotation: Either a ProFormaAnnotation or a MultiProFormaAnnotation.
